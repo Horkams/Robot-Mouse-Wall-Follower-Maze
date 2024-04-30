@@ -1,0 +1,73 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/apartment_structure/protos/Wall.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.10650618546954485 0.9608865661365354 0.2556431878127485 0.8182794413065678
+  position -3.3013135052335305 -1.1096158455885339 3.252848713355619
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 3 3
+  floorTileSize 1 1
+}
+E-puck {
+  translation -0.67 0.42 0
+  controller "wallfollower_controller"
+}
+Wall {
+  translation 0.25 1 0.05
+  rotation 1 0 0 1.57
+  size 1.5 0.1 0.01
+}
+Wall {
+  translation -0.75 0.5 0.05
+  rotation 1 0 0 1.57
+  name "wall(5)"
+  size 1.5 0.1 0.01
+}
+Wall {
+  translation 1 0.5 0.05
+  rotation -0.5773502691896258 -0.5773502691896258 -0.5773502691896258 -2.0935953071795863
+  name "wall(1)"
+  size 2 0.1 0.01
+}
+Wall {
+  translation 0.5 -0.5 0.05
+  rotation -0.5773502691896258 -0.5773502691896258 -0.5773502691896258 -2.0935953071795863
+  name "wall(6)"
+  size 2 0.1 0.01
+}
+Wall {
+  translation -1 0 0.05
+  rotation -0.5773502691896258 -0.5773502691896258 -0.5773502691896258 -2.0935953071795863
+  name "wall(4)"
+  size 2 0.1 0.01
+}
+Wall {
+  translation -0.5 -0.5 0.05
+  rotation 1 0 0 1.57
+  name "wall(2)"
+  size 1 0.1 0.01
+}
+Wall {
+  translation 0 0 0.05
+  rotation 1 0 0 1.57
+  name "wall(7)"
+  size 1 0.1 0.01
+}
+Wall {
+  translation 0.25 -1 0.05
+  rotation 1 0 0 1.57
+  name "wall(3)"
+  size 1.5 0.1 0.01
+}
